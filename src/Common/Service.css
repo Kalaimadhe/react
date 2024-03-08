@@ -1,0 +1,68 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  max-width: 90%;
+  max-height: 40%;
+}
+.service {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.lft {
+  flex: 1;
+  text-align: left;
+}
+.lft1 {
+  font-size: 36px;
+  color: black;
+}
+.lft2 {
+  font-size: 36px;
+  color: green;
+}
+.mtext1,
+.mtext2,
+.mtext3,
+.mtext4{
+ color: black;
+}
+p {
+  font-size: 16px;
+  color: bl;
+  margin-top: 20px;
+}
+.rght {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.micon1,
+.micon3 {
+  list-style: none;
+}
+.micon1 li,
+.micon3 li {
+  text-align: center;
+}
+.micon1 img,
+.micon2 img,
+.micon3 img,
+.micon4 img {
+  max-width: 80px;
+  max-height: 80px;
+}
+h4 {
+  font-size: 24px;
+  color: black;
+  margin-top: 10px;
+}
+p {
+  font-size: 16px;
+  color: darkslategray
+}

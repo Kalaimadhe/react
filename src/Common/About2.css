@@ -1,0 +1,54 @@
+.about-margin {
+    margin-top: 70px; 
+}
+.conta-flex {
+    display: flex;
+    justify-content: center;
+}
+.a-container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+.left-mt {
+    flex: 1;
+    padding: 20px; 
+}
+.hear {
+    margin-bottom: 20px; 
+    color: black;
+}
+.ppp {
+    line-height: 1.5; 
+}
+.l-bt {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; 
+    margin-top: 20px; 
+}
+.l-bt:hover{
+    background-color: black;
+}
+.righht {
+    flex: 1;
+}
+.imgs {
+    max-width: 100%; 
+    height: auto;
+    flex-shrink: 0; 
+}
+@media (max-width: 768px) {
+.a-container {
+    flex-direction: column;
+}
+.left-mt,
+.righht {
+    flex: none; 
+    }
+}
+  

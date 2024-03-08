@@ -1,0 +1,62 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+.bbllog-top {
+    text-align: center;
+    padding: 40px 0; 
+}
+.connta {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.heaadd {
+    margin-bottom: 40px;
+}
+.heaadd h2{
+    font-size: 36px;
+    color: black; 
+}
+.heaadd p {
+    font-size: 16px;
+    color: gray; 
+}
+.contain-ggggr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bx {
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.kalai img {
+    max-width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.texttaa p {
+    padding: 20px;
+    font-size: 18px;
+    color: gray; 
+}
+@media (max-width: 768px) {
+    .bx {
+      width: calc(50% - 40px);
+    }
+}
+  
+@media (max-width: 480px) {
+    .bx {
+      width: calc(100% - 40px);
+    }
+}
+  
